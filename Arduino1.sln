@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.15
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Arduino1", "Arduino1\Arduino1.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Clock2", "Clock2\Clock2.vcxproj", "{59E19595-78B0-4837-9A6E-46A4A4B7F137}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DS3231", "..\..\Users\Edik\Documents\Arduino\DS3231\DS3231.vcxproj", "{179ADBE6-6093-4743-A430-57A7DE184B95}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Clock_LCD", "Sketch1\Sketch1.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,6 +15,14 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59E19595-78B0-4837-9A6E-46A4A4B7F137}.Debug|x86.ActiveCfg = Debug|Win32
+		{59E19595-78B0-4837-9A6E-46A4A4B7F137}.Debug|x86.Build.0 = Debug|Win32
+		{59E19595-78B0-4837-9A6E-46A4A4B7F137}.Release|x86.ActiveCfg = Release|Win32
+		{59E19595-78B0-4837-9A6E-46A4A4B7F137}.Release|x86.Build.0 = Release|Win32
+		{179ADBE6-6093-4743-A430-57A7DE184B95}.Debug|x86.ActiveCfg = Debug|Win32
+		{179ADBE6-6093-4743-A430-57A7DE184B95}.Debug|x86.Build.0 = Debug|Win32
+		{179ADBE6-6093-4743-A430-57A7DE184B95}.Release|x86.ActiveCfg = Release|Win32
+		{179ADBE6-6093-4743-A430-57A7DE184B95}.Release|x86.Build.0 = Release|Win32
 		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.ActiveCfg = Debug|Win32
 		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.Build.0 = Debug|Win32
 		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.ActiveCfg = Release|Win32
